@@ -1,0 +1,28 @@
+{
+  "name": "pixteps-web",
+  "version": "1.0.0",
+  "description": "**Website Description:** Coming soon...",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThinkIceCup/pixteps-web.git"
+  },
+  "author": "Think Ice Cup LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThinkIceCup/pixteps-web/issues"
+  },
+  "homepage": "https://github.com/ThinkIceCup/pixteps-web#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-loading-bar": "^0.8.0",
+    "angular-route": "^1.4.8",
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
