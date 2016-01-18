@@ -23,6 +23,6 @@ namespace App.Controllers {
 
     }
 
-    angular.module('App').controller('HomeController', HomeController);
+    angular.module('App.Controllers').controller('HomeController', HomeController);
 
 }

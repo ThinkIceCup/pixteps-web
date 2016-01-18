@@ -19,10 +19,10 @@ namespace App.Config {
                 controllerAs: 'vm',
                 caseInsensitiveMatch: true,
             })
-            .when('/about', {
-                templateUrl:'/views/about.html',
-                controller:'AboutController',
-                controllerAs:'vm',
+            .when('/event/create/:id/:name', {
+                templateUrl:'/views/event-create.html',
+                controller: 'EventController',
+                controllerAs: 'vm',
                 caseInsensitiveMatch: true,
             })
             .otherwise({

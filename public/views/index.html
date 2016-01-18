@@ -2,13 +2,32 @@
 <html lang="en" ng-app="App">
 <head>
     <meta charset="UTF-8">
+    <base href="/">
     <title>Pixteps</title>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
+
+
     <h1>Super Awesome</h1>
 
     <div ng-view autoscroll></div>
 
+
+    <!--Angular Core library and modules-->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-route/angular-route.js"></script>
+    <script src="libs/angular-loading-bar/src/loading-bar.js"></script>
+
+    <!-- Module Settings-->
+    <script src="js/core/application.js"></script>
+    <!-- Configurations-->
+    <script src="js/core/application-config.js"></script>
+    <!-- Services-->
+
+    <!-- Controllers-->
+    <script src="js/controllers/home-controller.js"></script>
+    <script src="js/controllers/event-controller.js"></script>
 
 </body>
 </html>
