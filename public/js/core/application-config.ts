@@ -19,7 +19,7 @@ namespace App.Config {
                 controllerAs: 'vm',
                 caseInsensitiveMatch: true,
             })
-            .when('/event/create/:id/:name', {
+            .when('/event/create/:eventName', {
                 templateUrl:'/views/event-create.html',
                 controller: 'EventController',
                 controllerAs: 'vm',

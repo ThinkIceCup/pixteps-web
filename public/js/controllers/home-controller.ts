@@ -11,15 +11,15 @@ namespace App.Controllers {
     class HomeController implements IHomeController {
 
         eventName: string;
+
         static $inject = ['$location'];
         constructor(private $location:ng.ILocationService){
 
         }
 
         createEvent():void {
-            this.$location.path('/event/create');
+            this.$location.path('/event/create/' + this.eventName);
         }
-
 
     }
 
